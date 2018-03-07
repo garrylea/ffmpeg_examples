@@ -23,6 +23,13 @@ int main(int argc, char *argv[])
         exit(1);
     }
 
+    /* retreive stream information */
+    if((err_code = avformat_find_stream_info(fmt_ctx, NULL)) < 0) {
+        av_strerror(err_code, errors, 1024);
+        fprintf(stderr, "Could not open source file %s, %d(%s)\n", src_filename, err_code, errors);
+        exit(1);
+    }
+
     /* dump input information to stderr */
     av_dump_format(fmt_ctx, 0, src_filename, 0);
 
