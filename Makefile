@@ -30,10 +30,12 @@ LDLIBS := $(shell pkg-config --libs $(FFMPEG_LIBS)) $(LDLIBS)
 #                transcode_aac                      \
 #                transcoding                        \
 
-EXAMPLES = extract_audio                      \
-           demuxing_decoding                  \
-	   mediainfo                           \
-	   ffmpeg_log
+EXAMPLES = demuxing_decoding                   \
+           mediainfo                           \
+           ffmpeg_log                          \
+           extr_audio                          \
+	   write_file                          \
+	   read_file
 OBJS=$(addsuffix .o,$(EXAMPLES))
 
 # the following examples make explicit use of the math library
