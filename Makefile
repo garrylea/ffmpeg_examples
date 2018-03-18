@@ -35,7 +35,8 @@ EXAMPLES = demuxing_decoding                   \
            ffmpeg_log                          \
            extr_audio                          \
 	   write_file                          \
-	   read_file
+	   read_file                           \
+	   extr_video
 OBJS=$(addsuffix .o,$(EXAMPLES))
 
 # the following examples make explicit use of the math library
