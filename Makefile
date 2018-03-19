@@ -36,7 +36,8 @@ EXAMPLES = demuxing_decoding                   \
            extr_audio                          \
 	   write_file                          \
 	   read_file                           \
-	   extr_video
+	   extr_video                          \
+	   remuxing
 OBJS=$(addsuffix .o,$(EXAMPLES))
 
 # the following examples make explicit use of the math library
