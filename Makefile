@@ -38,7 +38,9 @@ EXAMPLES = demuxing_decoding                   \
 	   read_file                           \
 	   extr_video                          \
 	   remuxing                            \
-	   cutvideo
+	   cutvideo                            \
+	   avmerge			       \
+           muxer
 OBJS=$(addsuffix .o,$(EXAMPLES))
 
 # the following examples make explicit use of the math library
