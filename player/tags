@@ -1,0 +1,396 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUDIO_DIFF_AVG_NB	tutorial06.c	/^#define AUDIO_DIFF_AVG_NB /;"	d	file:
+AUDIO_DIFF_AVG_NB	tutorial07.c	/^#define AUDIO_DIFF_AVG_NB /;"	d	file:
+AV_NOSYNC_THRESHOLD	tutorial05.c	/^#define AV_NOSYNC_THRESHOLD /;"	d	file:
+AV_NOSYNC_THRESHOLD	tutorial06.c	/^#define AV_NOSYNC_THRESHOLD /;"	d	file:
+AV_NOSYNC_THRESHOLD	tutorial07.c	/^#define AV_NOSYNC_THRESHOLD /;"	d	file:
+AV_SYNC_AUDIO_MASTER	tutorial06.c	/^  AV_SYNC_AUDIO_MASTER,$/;"	e	enum:__anon1	file:
+AV_SYNC_AUDIO_MASTER	tutorial07.c	/^  AV_SYNC_AUDIO_MASTER,$/;"	e	enum:__anon2	file:
+AV_SYNC_EXTERNAL_MASTER	tutorial06.c	/^  AV_SYNC_EXTERNAL_MASTER,$/;"	e	enum:__anon1	file:
+AV_SYNC_EXTERNAL_MASTER	tutorial07.c	/^  AV_SYNC_EXTERNAL_MASTER,$/;"	e	enum:__anon2	file:
+AV_SYNC_THRESHOLD	tutorial05.c	/^#define AV_SYNC_THRESHOLD /;"	d	file:
+AV_SYNC_THRESHOLD	tutorial06.c	/^#define AV_SYNC_THRESHOLD /;"	d	file:
+AV_SYNC_THRESHOLD	tutorial07.c	/^#define AV_SYNC_THRESHOLD /;"	d	file:
+AV_SYNC_VIDEO_MASTER	tutorial06.c	/^  AV_SYNC_VIDEO_MASTER,$/;"	e	enum:__anon1	file:
+AV_SYNC_VIDEO_MASTER	tutorial07.c	/^  AV_SYNC_VIDEO_MASTER,$/;"	e	enum:__anon2	file:
+DEFAULT_AV_SYNC_TYPE	tutorial06.c	/^#define DEFAULT_AV_SYNC_TYPE /;"	d	file:
+DEFAULT_AV_SYNC_TYPE	tutorial07.c	/^#define DEFAULT_AV_SYNC_TYPE /;"	d	file:
+FF_QUIT_EVENT	tutorial04.c	/^#define FF_QUIT_EVENT /;"	d	file:
+FF_QUIT_EVENT	tutorial05.c	/^#define FF_QUIT_EVENT /;"	d	file:
+FF_QUIT_EVENT	tutorial06.c	/^#define FF_QUIT_EVENT /;"	d	file:
+FF_QUIT_EVENT	tutorial07.c	/^#define FF_QUIT_EVENT /;"	d	file:
+FF_REFRESH_EVENT	tutorial04.c	/^#define FF_REFRESH_EVENT /;"	d	file:
+FF_REFRESH_EVENT	tutorial05.c	/^#define FF_REFRESH_EVENT /;"	d	file:
+FF_REFRESH_EVENT	tutorial06.c	/^#define FF_REFRESH_EVENT /;"	d	file:
+FF_REFRESH_EVENT	tutorial07.c	/^#define FF_REFRESH_EVENT /;"	d	file:
+MAX_AUDIOQ_SIZE	tutorial04.c	/^#define MAX_AUDIOQ_SIZE /;"	d	file:
+MAX_AUDIOQ_SIZE	tutorial05.c	/^#define MAX_AUDIOQ_SIZE /;"	d	file:
+MAX_AUDIOQ_SIZE	tutorial06.c	/^#define MAX_AUDIOQ_SIZE /;"	d	file:
+MAX_AUDIOQ_SIZE	tutorial07.c	/^#define MAX_AUDIOQ_SIZE /;"	d	file:
+MAX_AUDIO_FRAME_SIZE	tutorial03.c	/^#define MAX_AUDIO_FRAME_SIZE /;"	d	file:
+MAX_AUDIO_FRAME_SIZE	tutorial04.c	/^#define MAX_AUDIO_FRAME_SIZE /;"	d	file:
+MAX_AUDIO_FRAME_SIZE	tutorial05.c	/^#define MAX_AUDIO_FRAME_SIZE /;"	d	file:
+MAX_AUDIO_FRAME_SIZE	tutorial06.c	/^#define MAX_AUDIO_FRAME_SIZE /;"	d	file:
+MAX_AUDIO_FRAME_SIZE	tutorial07.c	/^#define MAX_AUDIO_FRAME_SIZE /;"	d	file:
+MAX_VIDEOQ_SIZE	tutorial04.c	/^#define MAX_VIDEOQ_SIZE /;"	d	file:
+MAX_VIDEOQ_SIZE	tutorial05.c	/^#define MAX_VIDEOQ_SIZE /;"	d	file:
+MAX_VIDEOQ_SIZE	tutorial06.c	/^#define MAX_VIDEOQ_SIZE /;"	d	file:
+MAX_VIDEOQ_SIZE	tutorial07.c	/^#define MAX_VIDEOQ_SIZE /;"	d	file:
+PacketQueue	tutorial03.c	/^typedef struct PacketQueue {$/;"	s	file:
+PacketQueue	tutorial03.c	/^} PacketQueue;$/;"	t	typeref:struct:PacketQueue	file:
+PacketQueue	tutorial04.c	/^typedef struct PacketQueue {$/;"	s	file:
+PacketQueue	tutorial04.c	/^} PacketQueue;$/;"	t	typeref:struct:PacketQueue	file:
+PacketQueue	tutorial05.c	/^typedef struct PacketQueue {$/;"	s	file:
+PacketQueue	tutorial05.c	/^} PacketQueue;$/;"	t	typeref:struct:PacketQueue	file:
+PacketQueue	tutorial06.c	/^typedef struct PacketQueue {$/;"	s	file:
+PacketQueue	tutorial06.c	/^} PacketQueue;$/;"	t	typeref:struct:PacketQueue	file:
+PacketQueue	tutorial07.c	/^typedef struct PacketQueue {$/;"	s	file:
+PacketQueue	tutorial07.c	/^} PacketQueue;$/;"	t	typeref:struct:PacketQueue	file:
+SAMPLE_CORRECTION_PERCENT_MAX	tutorial06.c	/^#define SAMPLE_CORRECTION_PERCENT_MAX /;"	d	file:
+SAMPLE_CORRECTION_PERCENT_MAX	tutorial07.c	/^#define SAMPLE_CORRECTION_PERCENT_MAX /;"	d	file:
+SDL_AUDIO_BUFFER_SIZE	tutorial03.c	/^#define SDL_AUDIO_BUFFER_SIZE /;"	d	file:
+SDL_AUDIO_BUFFER_SIZE	tutorial04.c	/^#define SDL_AUDIO_BUFFER_SIZE /;"	d	file:
+SDL_AUDIO_BUFFER_SIZE	tutorial05.c	/^#define SDL_AUDIO_BUFFER_SIZE /;"	d	file:
+SDL_AUDIO_BUFFER_SIZE	tutorial06.c	/^#define SDL_AUDIO_BUFFER_SIZE /;"	d	file:
+SDL_AUDIO_BUFFER_SIZE	tutorial07.c	/^#define SDL_AUDIO_BUFFER_SIZE /;"	d	file:
+SaveFrame	tutorial01.c	/^void SaveFrame(AVFrame *pFrame, int width, int height, int iFrame) {$/;"	f
+VIDEO_PICTURE_QUEUE_SIZE	tutorial04.c	/^#define VIDEO_PICTURE_QUEUE_SIZE /;"	d	file:
+VIDEO_PICTURE_QUEUE_SIZE	tutorial05.c	/^#define VIDEO_PICTURE_QUEUE_SIZE /;"	d	file:
+VIDEO_PICTURE_QUEUE_SIZE	tutorial06.c	/^#define VIDEO_PICTURE_QUEUE_SIZE /;"	d	file:
+VIDEO_PICTURE_QUEUE_SIZE	tutorial07.c	/^#define VIDEO_PICTURE_QUEUE_SIZE /;"	d	file:
+VideoPicture	tutorial04.c	/^typedef struct VideoPicture {$/;"	s	file:
+VideoPicture	tutorial04.c	/^} VideoPicture;$/;"	t	typeref:struct:VideoPicture	file:
+VideoPicture	tutorial05.c	/^typedef struct VideoPicture {$/;"	s	file:
+VideoPicture	tutorial05.c	/^} VideoPicture;$/;"	t	typeref:struct:VideoPicture	file:
+VideoPicture	tutorial06.c	/^typedef struct VideoPicture {$/;"	s	file:
+VideoPicture	tutorial06.c	/^} VideoPicture;$/;"	t	typeref:struct:VideoPicture	file:
+VideoPicture	tutorial07.c	/^typedef struct VideoPicture {$/;"	s	file:
+VideoPicture	tutorial07.c	/^} VideoPicture;$/;"	t	typeref:struct:VideoPicture	file:
+VideoState	tutorial04.c	/^typedef struct VideoState {$/;"	s	file:
+VideoState	tutorial04.c	/^} VideoState;$/;"	t	typeref:struct:VideoState	file:
+VideoState	tutorial05.c	/^typedef struct VideoState {$/;"	s	file:
+VideoState	tutorial05.c	/^} VideoState;$/;"	t	typeref:struct:VideoState	file:
+VideoState	tutorial06.c	/^typedef struct VideoState {$/;"	s	file:
+VideoState	tutorial06.c	/^} VideoState;$/;"	t	typeref:struct:VideoState	file:
+VideoState	tutorial07.c	/^typedef struct VideoState {$/;"	s	file:
+VideoState	tutorial07.c	/^} VideoState;$/;"	t	typeref:struct:VideoState	file:
+alloc_picture	tutorial04.c	/^void alloc_picture(void *userdata) {$/;"	f
+alloc_picture	tutorial05.c	/^void alloc_picture(void *userdata) {$/;"	f
+alloc_picture	tutorial06.c	/^void alloc_picture(void *userdata) {$/;"	f
+alloc_picture	tutorial07.c	/^void alloc_picture(void *userdata) {$/;"	f
+allocated	tutorial04.c	/^  int allocated;$/;"	m	struct:VideoPicture	file:
+allocated	tutorial05.c	/^  int allocated;$/;"	m	struct:VideoPicture	file:
+allocated	tutorial06.c	/^  int allocated;$/;"	m	struct:VideoPicture	file:
+allocated	tutorial07.c	/^  int allocated;$/;"	m	struct:VideoPicture	file:
+audioStream	tutorial04.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+audioStream	tutorial05.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+audioStream	tutorial06.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+audioStream	tutorial07.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+audio_buf	tutorial04.c	/^  uint8_t         audio_buf[(AVCODEC_MAX_AUDIO_FRAME_SIZE * 3) \/ 2];$/;"	m	struct:VideoState	file:
+audio_buf	tutorial05.c	/^  uint8_t         audio_buf[(AVCODEC_MAX_AUDIO_FRAME_SIZE * 3) \/ 2];$/;"	m	struct:VideoState	file:
+audio_buf	tutorial06.c	/^  uint8_t         audio_buf[(AVCODEC_MAX_AUDIO_FRAME_SIZE * 3) \/ 2];$/;"	m	struct:VideoState	file:
+audio_buf	tutorial07.c	/^  uint8_t         audio_buf[(AVCODEC_MAX_AUDIO_FRAME_SIZE * 3) \/ 2];$/;"	m	struct:VideoState	file:
+audio_buf_index	tutorial04.c	/^  unsigned int    audio_buf_index;$/;"	m	struct:VideoState	file:
+audio_buf_index	tutorial05.c	/^  unsigned int    audio_buf_index;$/;"	m	struct:VideoState	file:
+audio_buf_index	tutorial06.c	/^  unsigned int    audio_buf_index;$/;"	m	struct:VideoState	file:
+audio_buf_index	tutorial07.c	/^  unsigned int    audio_buf_index;$/;"	m	struct:VideoState	file:
+audio_buf_size	tutorial04.c	/^  unsigned int    audio_buf_size;$/;"	m	struct:VideoState	file:
+audio_buf_size	tutorial05.c	/^  unsigned int    audio_buf_size;$/;"	m	struct:VideoState	file:
+audio_buf_size	tutorial06.c	/^  unsigned int    audio_buf_size;$/;"	m	struct:VideoState	file:
+audio_buf_size	tutorial07.c	/^  unsigned int    audio_buf_size;$/;"	m	struct:VideoState	file:
+audio_callback	tutorial03.c	/^void audio_callback(void *userdata, Uint8 *stream, int len) {$/;"	f
+audio_callback	tutorial04.c	/^void audio_callback(void *userdata, Uint8 *stream, int len) {$/;"	f
+audio_callback	tutorial05.c	/^void audio_callback(void *userdata, Uint8 *stream, int len) {$/;"	f
+audio_callback	tutorial06.c	/^void audio_callback(void *userdata, Uint8 *stream, int len) {$/;"	f
+audio_callback	tutorial07.c	/^void audio_callback(void *userdata, Uint8 *stream, int len) {$/;"	f
+audio_clock	tutorial05.c	/^  double          audio_clock;$/;"	m	struct:VideoState	file:
+audio_clock	tutorial06.c	/^  double          audio_clock;$/;"	m	struct:VideoState	file:
+audio_clock	tutorial07.c	/^  double          audio_clock;$/;"	m	struct:VideoState	file:
+audio_ctx	tutorial04.c	/^  AVCodecContext  *audio_ctx;$/;"	m	struct:VideoState	file:
+audio_ctx	tutorial05.c	/^  AVCodecContext  *audio_ctx;$/;"	m	struct:VideoState	file:
+audio_ctx	tutorial06.c	/^  AVCodecContext  *audio_ctx;$/;"	m	struct:VideoState	file:
+audio_ctx	tutorial07.c	/^  AVCodecContext  *audio_ctx;$/;"	m	struct:VideoState	file:
+audio_decode_frame	tutorial03.c	/^int audio_decode_frame(AVCodecContext *aCodecCtx, uint8_t *audio_buf, int buf_size) {$/;"	f
+audio_decode_frame	tutorial04.c	/^int audio_decode_frame(VideoState *is, uint8_t *audio_buf, int buf_size) {$/;"	f
+audio_decode_frame	tutorial05.c	/^int audio_decode_frame(VideoState *is, uint8_t *audio_buf, int buf_size, double *pts_ptr) {$/;"	f
+audio_decode_frame	tutorial06.c	/^int audio_decode_frame(VideoState *is, uint8_t *audio_buf, int buf_size, double *pts_ptr) {$/;"	f
+audio_decode_frame	tutorial07.c	/^int audio_decode_frame(VideoState *is, uint8_t *audio_buf, int buf_size, double *pts_ptr) {$/;"	f
+audio_diff_avg_coef	tutorial06.c	/^  double          audio_diff_avg_coef;$/;"	m	struct:VideoState	file:
+audio_diff_avg_coef	tutorial07.c	/^  double          audio_diff_avg_coef;$/;"	m	struct:VideoState	file:
+audio_diff_avg_count	tutorial06.c	/^  int             audio_diff_avg_count;$/;"	m	struct:VideoState	file:
+audio_diff_avg_count	tutorial07.c	/^  int             audio_diff_avg_count;$/;"	m	struct:VideoState	file:
+audio_diff_cum	tutorial06.c	/^  double          audio_diff_cum; \/* used for AV difference average computation *\/$/;"	m	struct:VideoState	file:
+audio_diff_cum	tutorial07.c	/^  double          audio_diff_cum; \/* used for AV difference average computation *\/$/;"	m	struct:VideoState	file:
+audio_diff_threshold	tutorial06.c	/^  double          audio_diff_threshold;$/;"	m	struct:VideoState	file:
+audio_diff_threshold	tutorial07.c	/^  double          audio_diff_threshold;$/;"	m	struct:VideoState	file:
+audio_frame	tutorial04.c	/^  AVFrame         audio_frame;$/;"	m	struct:VideoState	file:
+audio_frame	tutorial05.c	/^  AVFrame         audio_frame;$/;"	m	struct:VideoState	file:
+audio_frame	tutorial06.c	/^  AVFrame         audio_frame;$/;"	m	struct:VideoState	file:
+audio_frame	tutorial07.c	/^  AVFrame         audio_frame;$/;"	m	struct:VideoState	file:
+audio_hw_buf_size	tutorial05.c	/^  int             audio_hw_buf_size;  $/;"	m	struct:VideoState	file:
+audio_hw_buf_size	tutorial06.c	/^  int             audio_hw_buf_size;$/;"	m	struct:VideoState	file:
+audio_hw_buf_size	tutorial07.c	/^  int             audio_hw_buf_size;$/;"	m	struct:VideoState	file:
+audio_pkt	tutorial04.c	/^  AVPacket        audio_pkt;$/;"	m	struct:VideoState	file:
+audio_pkt	tutorial05.c	/^  AVPacket        audio_pkt;$/;"	m	struct:VideoState	file:
+audio_pkt	tutorial06.c	/^  AVPacket        audio_pkt;$/;"	m	struct:VideoState	file:
+audio_pkt	tutorial07.c	/^  AVPacket        audio_pkt;$/;"	m	struct:VideoState	file:
+audio_pkt_data	tutorial04.c	/^  uint8_t         *audio_pkt_data;$/;"	m	struct:VideoState	file:
+audio_pkt_data	tutorial05.c	/^  uint8_t         *audio_pkt_data;$/;"	m	struct:VideoState	file:
+audio_pkt_data	tutorial06.c	/^  uint8_t         *audio_pkt_data;$/;"	m	struct:VideoState	file:
+audio_pkt_data	tutorial07.c	/^  uint8_t         *audio_pkt_data;$/;"	m	struct:VideoState	file:
+audio_pkt_size	tutorial04.c	/^  int             audio_pkt_size;$/;"	m	struct:VideoState	file:
+audio_pkt_size	tutorial05.c	/^  int             audio_pkt_size;$/;"	m	struct:VideoState	file:
+audio_pkt_size	tutorial06.c	/^  int             audio_pkt_size;$/;"	m	struct:VideoState	file:
+audio_pkt_size	tutorial07.c	/^  int             audio_pkt_size;$/;"	m	struct:VideoState	file:
+audio_st	tutorial04.c	/^  AVStream        *audio_st;$/;"	m	struct:VideoState	file:
+audio_st	tutorial05.c	/^  AVStream        *audio_st;$/;"	m	struct:VideoState	file:
+audio_st	tutorial06.c	/^  AVStream        *audio_st;$/;"	m	struct:VideoState	file:
+audio_st	tutorial07.c	/^  AVStream        *audio_st;$/;"	m	struct:VideoState	file:
+audioq	tutorial03.c	/^PacketQueue audioq;$/;"	v
+audioq	tutorial04.c	/^  PacketQueue     audioq;$/;"	m	struct:VideoState	file:
+audioq	tutorial05.c	/^  PacketQueue     audioq;$/;"	m	struct:VideoState	file:
+audioq	tutorial06.c	/^  PacketQueue     audioq;$/;"	m	struct:VideoState	file:
+audioq	tutorial07.c	/^  PacketQueue     audioq;$/;"	m	struct:VideoState	file:
+av_frame_alloc	tutorial01.c	/^#define av_frame_alloc /;"	d	file:
+av_frame_alloc	tutorial02.c	/^#define av_frame_alloc /;"	d	file:
+av_frame_alloc	tutorial03.c	/^#define av_frame_alloc /;"	d	file:
+av_frame_alloc	tutorial04.c	/^#define av_frame_alloc /;"	d	file:
+av_frame_alloc	tutorial05.c	/^#define av_frame_alloc /;"	d	file:
+av_frame_alloc	tutorial06.c	/^#define av_frame_alloc /;"	d	file:
+av_frame_alloc	tutorial07.c	/^#define av_frame_alloc /;"	d	file:
+av_frame_free	tutorial01.c	/^#define av_frame_free /;"	d	file:
+av_frame_free	tutorial02.c	/^#define av_frame_free /;"	d	file:
+av_frame_free	tutorial03.c	/^#define av_frame_free /;"	d	file:
+av_frame_free	tutorial04.c	/^#define av_frame_free /;"	d	file:
+av_frame_free	tutorial05.c	/^#define av_frame_free /;"	d	file:
+av_frame_free	tutorial06.c	/^#define av_frame_free /;"	d	file:
+av_frame_free	tutorial07.c	/^#define av_frame_free /;"	d	file:
+av_sync_type	tutorial06.c	/^  int             av_sync_type;$/;"	m	struct:VideoState	file:
+av_sync_type	tutorial07.c	/^  int             av_sync_type;$/;"	m	struct:VideoState	file:
+bmp	tutorial04.c	/^  SDL_Overlay *bmp;$/;"	m	struct:VideoPicture	file:
+bmp	tutorial05.c	/^  SDL_Overlay *bmp;$/;"	m	struct:VideoPicture	file:
+bmp	tutorial06.c	/^  SDL_Overlay *bmp;$/;"	m	struct:VideoPicture	file:
+bmp	tutorial07.c	/^  SDL_Overlay *bmp;$/;"	m	struct:VideoPicture	file:
+cond	tutorial03.c	/^  SDL_cond *cond;$/;"	m	struct:PacketQueue	file:
+cond	tutorial04.c	/^  SDL_cond *cond;$/;"	m	struct:PacketQueue	file:
+cond	tutorial05.c	/^  SDL_cond *cond;$/;"	m	struct:PacketQueue	file:
+cond	tutorial06.c	/^  SDL_cond *cond;$/;"	m	struct:PacketQueue	file:
+cond	tutorial07.c	/^  SDL_cond *cond;$/;"	m	struct:PacketQueue	file:
+decode_thread	tutorial04.c	/^int decode_thread(void *arg) {$/;"	f
+decode_thread	tutorial05.c	/^int decode_thread(void *arg) {$/;"	f
+decode_thread	tutorial06.c	/^int decode_thread(void *arg) {$/;"	f
+decode_thread	tutorial07.c	/^int decode_thread(void *arg) {$/;"	f
+external_clock	tutorial06.c	/^  double          external_clock; \/* external clock base *\/$/;"	m	struct:VideoState	file:
+external_clock	tutorial07.c	/^  double          external_clock; \/* external clock base *\/$/;"	m	struct:VideoState	file:
+external_clock_time	tutorial06.c	/^  int64_t         external_clock_time;$/;"	m	struct:VideoState	file:
+external_clock_time	tutorial07.c	/^  int64_t         external_clock_time;$/;"	m	struct:VideoState	file:
+filename	tutorial04.c	/^  char            filename[1024];$/;"	m	struct:VideoState	file:
+filename	tutorial05.c	/^  char            filename[1024];$/;"	m	struct:VideoState	file:
+filename	tutorial06.c	/^  char            filename[1024];$/;"	m	struct:VideoState	file:
+filename	tutorial07.c	/^  char            filename[1024];$/;"	m	struct:VideoState	file:
+first_pkt	tutorial03.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+first_pkt	tutorial04.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+first_pkt	tutorial05.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+first_pkt	tutorial06.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+first_pkt	tutorial07.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+flush_pkt	tutorial07.c	/^AVPacket flush_pkt;$/;"	v
+frame_last_delay	tutorial05.c	/^  double          frame_last_delay;$/;"	m	struct:VideoState	file:
+frame_last_delay	tutorial06.c	/^  double          frame_last_delay;$/;"	m	struct:VideoState	file:
+frame_last_delay	tutorial07.c	/^  double          frame_last_delay;$/;"	m	struct:VideoState	file:
+frame_last_pts	tutorial05.c	/^  double          frame_last_pts;$/;"	m	struct:VideoState	file:
+frame_last_pts	tutorial06.c	/^  double          frame_last_pts;$/;"	m	struct:VideoState	file:
+frame_last_pts	tutorial07.c	/^  double          frame_last_pts;$/;"	m	struct:VideoState	file:
+frame_timer	tutorial05.c	/^  double          frame_timer;$/;"	m	struct:VideoState	file:
+frame_timer	tutorial06.c	/^  double          frame_timer;$/;"	m	struct:VideoState	file:
+frame_timer	tutorial07.c	/^  double          frame_timer;$/;"	m	struct:VideoState	file:
+get_audio_clock	tutorial05.c	/^double get_audio_clock(VideoState *is) {$/;"	f
+get_audio_clock	tutorial06.c	/^double get_audio_clock(VideoState *is) {$/;"	f
+get_audio_clock	tutorial07.c	/^double get_audio_clock(VideoState *is) {$/;"	f
+get_external_clock	tutorial06.c	/^double get_external_clock(VideoState *is) {$/;"	f
+get_external_clock	tutorial07.c	/^double get_external_clock(VideoState *is) {$/;"	f
+get_master_clock	tutorial06.c	/^double get_master_clock(VideoState *is) {$/;"	f
+get_master_clock	tutorial07.c	/^double get_master_clock(VideoState *is) {$/;"	f
+get_video_clock	tutorial06.c	/^double get_video_clock(VideoState *is) {$/;"	f
+get_video_clock	tutorial07.c	/^double get_video_clock(VideoState *is) {$/;"	f
+global_video_state	tutorial04.c	/^VideoState *global_video_state;$/;"	v
+global_video_state	tutorial05.c	/^VideoState *global_video_state;$/;"	v
+global_video_state	tutorial06.c	/^VideoState *global_video_state;$/;"	v
+global_video_state	tutorial07.c	/^VideoState *global_video_state;$/;"	v
+height	tutorial04.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+height	tutorial05.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+height	tutorial06.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+height	tutorial07.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+last_pkt	tutorial03.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+last_pkt	tutorial04.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+last_pkt	tutorial05.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+last_pkt	tutorial06.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+last_pkt	tutorial07.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+main	tutorial01.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tutorial02.c	/^#undef main /;"	d	file:
+main	tutorial02.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tutorial03.c	/^#undef main /;"	d	file:
+main	tutorial03.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tutorial04.c	/^#undef main /;"	d	file:
+main	tutorial04.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tutorial05.c	/^#undef main /;"	d	file:
+main	tutorial05.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tutorial06.c	/^#undef main /;"	d	file:
+main	tutorial06.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tutorial07.c	/^#undef main /;"	d	file:
+main	tutorial07.c	/^int main(int argc, char *argv[]) {$/;"	f
+mutex	tutorial03.c	/^  SDL_mutex *mutex;$/;"	m	struct:PacketQueue	file:
+mutex	tutorial04.c	/^  SDL_mutex *mutex;$/;"	m	struct:PacketQueue	file:
+mutex	tutorial05.c	/^  SDL_mutex *mutex;$/;"	m	struct:PacketQueue	file:
+mutex	tutorial06.c	/^  SDL_mutex *mutex;$/;"	m	struct:PacketQueue	file:
+mutex	tutorial07.c	/^  SDL_mutex *mutex;$/;"	m	struct:PacketQueue	file:
+nb_packets	tutorial03.c	/^  int nb_packets;$/;"	m	struct:PacketQueue	file:
+nb_packets	tutorial04.c	/^  int nb_packets;$/;"	m	struct:PacketQueue	file:
+nb_packets	tutorial05.c	/^  int nb_packets;$/;"	m	struct:PacketQueue	file:
+nb_packets	tutorial06.c	/^  int nb_packets;$/;"	m	struct:PacketQueue	file:
+nb_packets	tutorial07.c	/^  int nb_packets;$/;"	m	struct:PacketQueue	file:
+pFormatCtx	tutorial04.c	/^  AVFormatContext *pFormatCtx;$/;"	m	struct:VideoState	file:
+pFormatCtx	tutorial05.c	/^  AVFormatContext *pFormatCtx;$/;"	m	struct:VideoState	file:
+pFormatCtx	tutorial06.c	/^  AVFormatContext *pFormatCtx;$/;"	m	struct:VideoState	file:
+pFormatCtx	tutorial07.c	/^  AVFormatContext *pFormatCtx;$/;"	m	struct:VideoState	file:
+packet_queue_flush	tutorial07.c	/^static void packet_queue_flush(PacketQueue *q) {$/;"	f	file:
+packet_queue_get	tutorial03.c	/^static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)$/;"	f	file:
+packet_queue_get	tutorial04.c	/^static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)$/;"	f	file:
+packet_queue_get	tutorial05.c	/^static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)$/;"	f	file:
+packet_queue_get	tutorial06.c	/^static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)$/;"	f	file:
+packet_queue_get	tutorial07.c	/^static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)$/;"	f	file:
+packet_queue_init	tutorial03.c	/^void packet_queue_init(PacketQueue *q) {$/;"	f
+packet_queue_init	tutorial04.c	/^void packet_queue_init(PacketQueue *q) {$/;"	f
+packet_queue_init	tutorial05.c	/^void packet_queue_init(PacketQueue *q) {$/;"	f
+packet_queue_init	tutorial06.c	/^void packet_queue_init(PacketQueue *q) {$/;"	f
+packet_queue_init	tutorial07.c	/^void packet_queue_init(PacketQueue *q) {$/;"	f
+packet_queue_put	tutorial03.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt) {$/;"	f
+packet_queue_put	tutorial04.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt) {$/;"	f
+packet_queue_put	tutorial05.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt) {$/;"	f
+packet_queue_put	tutorial06.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt) {$/;"	f
+packet_queue_put	tutorial07.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt) {$/;"	f
+parse_tid	tutorial04.c	/^  SDL_Thread      *parse_tid;$/;"	m	struct:VideoState	file:
+parse_tid	tutorial05.c	/^  SDL_Thread      *parse_tid;$/;"	m	struct:VideoState	file:
+parse_tid	tutorial06.c	/^  SDL_Thread      *parse_tid;$/;"	m	struct:VideoState	file:
+parse_tid	tutorial07.c	/^  SDL_Thread      *parse_tid;$/;"	m	struct:VideoState	file:
+pictq	tutorial04.c	/^  VideoPicture    pictq[VIDEO_PICTURE_QUEUE_SIZE];$/;"	m	struct:VideoState	file:
+pictq	tutorial05.c	/^  VideoPicture    pictq[VIDEO_PICTURE_QUEUE_SIZE];$/;"	m	struct:VideoState	file:
+pictq	tutorial06.c	/^  VideoPicture    pictq[VIDEO_PICTURE_QUEUE_SIZE];$/;"	m	struct:VideoState	file:
+pictq	tutorial07.c	/^  VideoPicture    pictq[VIDEO_PICTURE_QUEUE_SIZE];$/;"	m	struct:VideoState	file:
+pictq_cond	tutorial04.c	/^  SDL_cond        *pictq_cond;$/;"	m	struct:VideoState	file:
+pictq_cond	tutorial05.c	/^  SDL_cond        *pictq_cond;$/;"	m	struct:VideoState	file:
+pictq_cond	tutorial06.c	/^  SDL_cond        *pictq_cond;$/;"	m	struct:VideoState	file:
+pictq_cond	tutorial07.c	/^  SDL_cond        *pictq_cond;$/;"	m	struct:VideoState	file:
+pictq_mutex	tutorial04.c	/^  SDL_mutex       *pictq_mutex;$/;"	m	struct:VideoState	file:
+pictq_mutex	tutorial05.c	/^  SDL_mutex       *pictq_mutex;$/;"	m	struct:VideoState	file:
+pictq_mutex	tutorial06.c	/^  SDL_mutex       *pictq_mutex;$/;"	m	struct:VideoState	file:
+pictq_mutex	tutorial07.c	/^  SDL_mutex       *pictq_mutex;$/;"	m	struct:VideoState	file:
+pictq_rindex	tutorial04.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_rindex	tutorial05.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_rindex	tutorial06.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_rindex	tutorial07.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_size	tutorial04.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_size	tutorial05.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_size	tutorial06.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_size	tutorial07.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_windex	tutorial04.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_windex	tutorial05.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_windex	tutorial06.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_windex	tutorial07.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pts	tutorial05.c	/^  double pts;$/;"	m	struct:VideoPicture	file:
+pts	tutorial06.c	/^  double pts;$/;"	m	struct:VideoPicture	file:
+pts	tutorial07.c	/^  double pts;$/;"	m	struct:VideoPicture	file:
+queue_picture	tutorial04.c	/^int queue_picture(VideoState *is, AVFrame *pFrame) {$/;"	f
+queue_picture	tutorial05.c	/^int queue_picture(VideoState *is, AVFrame *pFrame, double pts) {$/;"	f
+queue_picture	tutorial06.c	/^int queue_picture(VideoState *is, AVFrame *pFrame, double pts) {$/;"	f
+queue_picture	tutorial07.c	/^int queue_picture(VideoState *is, AVFrame *pFrame, double pts) {$/;"	f
+quit	tutorial03.c	/^int quit = 0;$/;"	v
+quit	tutorial04.c	/^  int             quit;$/;"	m	struct:VideoState	file:
+quit	tutorial05.c	/^  int             quit;$/;"	m	struct:VideoState	file:
+quit	tutorial06.c	/^  int             quit;$/;"	m	struct:VideoState	file:
+quit	tutorial07.c	/^  int             quit;$/;"	m	struct:VideoState	file:
+schedule_refresh	tutorial04.c	/^static void schedule_refresh(VideoState *is, int delay) {$/;"	f	file:
+schedule_refresh	tutorial05.c	/^static void schedule_refresh(VideoState *is, int delay) {$/;"	f	file:
+schedule_refresh	tutorial06.c	/^static void schedule_refresh(VideoState *is, int delay) {$/;"	f	file:
+schedule_refresh	tutorial07.c	/^static void schedule_refresh(VideoState *is, int delay) {$/;"	f	file:
+screen	tutorial04.c	/^SDL_Surface     *screen;$/;"	v
+screen	tutorial05.c	/^SDL_Surface     *screen;$/;"	v
+screen	tutorial06.c	/^SDL_Surface     *screen;$/;"	v
+screen	tutorial07.c	/^SDL_Surface     *screen;$/;"	v
+screen_mutex	tutorial04.c	/^SDL_mutex       *screen_mutex;$/;"	v
+screen_mutex	tutorial05.c	/^SDL_mutex       *screen_mutex;$/;"	v
+screen_mutex	tutorial06.c	/^SDL_mutex       *screen_mutex;$/;"	v
+screen_mutex	tutorial07.c	/^SDL_mutex       *screen_mutex;$/;"	v
+sdl_refresh_timer_cb	tutorial04.c	/^static Uint32 sdl_refresh_timer_cb(Uint32 interval, void *opaque) {$/;"	f	file:
+sdl_refresh_timer_cb	tutorial05.c	/^static Uint32 sdl_refresh_timer_cb(Uint32 interval, void *opaque) {$/;"	f	file:
+sdl_refresh_timer_cb	tutorial06.c	/^static Uint32 sdl_refresh_timer_cb(Uint32 interval, void *opaque) {$/;"	f	file:
+sdl_refresh_timer_cb	tutorial07.c	/^static Uint32 sdl_refresh_timer_cb(Uint32 interval, void *opaque) {$/;"	f	file:
+seek_flags	tutorial07.c	/^  int             seek_flags;$/;"	m	struct:VideoState	file:
+seek_pos	tutorial07.c	/^  int64_t         seek_pos;$/;"	m	struct:VideoState	file:
+seek_req	tutorial07.c	/^  int             seek_req;$/;"	m	struct:VideoState	file:
+size	tutorial03.c	/^  int size;$/;"	m	struct:PacketQueue	file:
+size	tutorial04.c	/^  int size;$/;"	m	struct:PacketQueue	file:
+size	tutorial05.c	/^  int size;$/;"	m	struct:PacketQueue	file:
+size	tutorial06.c	/^  int size;$/;"	m	struct:PacketQueue	file:
+size	tutorial07.c	/^  int size;$/;"	m	struct:PacketQueue	file:
+stream_component_open	tutorial04.c	/^int stream_component_open(VideoState *is, int stream_index) {$/;"	f
+stream_component_open	tutorial05.c	/^int stream_component_open(VideoState *is, int stream_index) {$/;"	f
+stream_component_open	tutorial06.c	/^int stream_component_open(VideoState *is, int stream_index) {$/;"	f
+stream_component_open	tutorial07.c	/^int stream_component_open(VideoState *is, int stream_index) {$/;"	f
+stream_seek	tutorial07.c	/^void stream_seek(VideoState *is, int64_t pos, int rel) {$/;"	f
+sws_ctx	tutorial04.c	/^  struct SwsContext *sws_ctx;$/;"	m	struct:VideoState	typeref:struct:VideoState::SwsContext	file:
+sws_ctx	tutorial05.c	/^  struct SwsContext *sws_ctx;$/;"	m	struct:VideoState	typeref:struct:VideoState::SwsContext	file:
+sws_ctx	tutorial06.c	/^  struct SwsContext *sws_ctx;$/;"	m	struct:VideoState	typeref:struct:VideoState::SwsContext	file:
+sws_ctx	tutorial07.c	/^  struct SwsContext *sws_ctx;$/;"	m	struct:VideoState	typeref:struct:VideoState::SwsContext	file:
+synchronize_audio	tutorial06.c	/^int synchronize_audio(VideoState *is, short *samples,$/;"	f
+synchronize_audio	tutorial07.c	/^int synchronize_audio(VideoState *is, short *samples,$/;"	f
+synchronize_video	tutorial05.c	/^double synchronize_video(VideoState *is, AVFrame *src_frame, double pts) {$/;"	f
+synchronize_video	tutorial06.c	/^double synchronize_video(VideoState *is, AVFrame *src_frame, double pts) {$/;"	f
+synchronize_video	tutorial07.c	/^double synchronize_video(VideoState *is, AVFrame *src_frame, double pts) {$/;"	f
+videoStream	tutorial04.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+videoStream	tutorial05.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+videoStream	tutorial06.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+videoStream	tutorial07.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+video_clock	tutorial05.c	/^  double          video_clock; \/\/\/<pts of last decoded frame \/ predicted pts of next decoded frame$/;"	m	struct:VideoState	file:
+video_clock	tutorial06.c	/^  double          video_clock; \/\/\/<pts of last decoded frame \/ predicted pts of next decoded frame$/;"	m	struct:VideoState	file:
+video_clock	tutorial07.c	/^  double          video_clock; \/\/\/<pts of last decoded frame \/ predicted pts of next decoded frame$/;"	m	struct:VideoState	file:
+video_ctx	tutorial04.c	/^  AVCodecContext  *video_ctx;$/;"	m	struct:VideoState	file:
+video_ctx	tutorial05.c	/^  AVCodecContext  *video_ctx;$/;"	m	struct:VideoState	file:
+video_ctx	tutorial06.c	/^  AVCodecContext  *video_ctx;$/;"	m	struct:VideoState	file:
+video_ctx	tutorial07.c	/^  AVCodecContext  *video_ctx;$/;"	m	struct:VideoState	file:
+video_current_pts	tutorial06.c	/^  double          video_current_pts; \/\/\/<current displayed pts (different from video_clock if frame fifos are used)$/;"	m	struct:VideoState	file:
+video_current_pts	tutorial07.c	/^  double          video_current_pts; \/\/\/<current displayed pts (different from video_clock if frame fifos are used)$/;"	m	struct:VideoState	file:
+video_current_pts_time	tutorial06.c	/^  int64_t         video_current_pts_time;  \/\/\/<time (av_gettime) at which we updated video_current_pts - used to have running video pts$/;"	m	struct:VideoState	file:
+video_current_pts_time	tutorial07.c	/^  int64_t         video_current_pts_time;  \/\/\/<time (av_gettime) at which we updated video_current_pts - used to have running video pts$/;"	m	struct:VideoState	file:
+video_display	tutorial04.c	/^void video_display(VideoState *is) {$/;"	f
+video_display	tutorial05.c	/^void video_display(VideoState *is) {$/;"	f
+video_display	tutorial06.c	/^void video_display(VideoState *is) {$/;"	f
+video_display	tutorial07.c	/^void video_display(VideoState *is) {$/;"	f
+video_refresh_timer	tutorial04.c	/^void video_refresh_timer(void *userdata) {$/;"	f
+video_refresh_timer	tutorial05.c	/^void video_refresh_timer(void *userdata) {$/;"	f
+video_refresh_timer	tutorial06.c	/^void video_refresh_timer(void *userdata) {$/;"	f
+video_refresh_timer	tutorial07.c	/^void video_refresh_timer(void *userdata) {$/;"	f
+video_st	tutorial04.c	/^  AVStream        *video_st;$/;"	m	struct:VideoState	file:
+video_st	tutorial05.c	/^  AVStream        *video_st;$/;"	m	struct:VideoState	file:
+video_st	tutorial06.c	/^  AVStream        *video_st;$/;"	m	struct:VideoState	file:
+video_st	tutorial07.c	/^  AVStream        *video_st;$/;"	m	struct:VideoState	file:
+video_thread	tutorial04.c	/^int video_thread(void *arg) {$/;"	f
+video_thread	tutorial05.c	/^int video_thread(void *arg) {$/;"	f
+video_thread	tutorial06.c	/^int video_thread(void *arg) {$/;"	f
+video_thread	tutorial07.c	/^int video_thread(void *arg) {$/;"	f
+video_tid	tutorial04.c	/^  SDL_Thread      *video_tid;$/;"	m	struct:VideoState	file:
+video_tid	tutorial05.c	/^  SDL_Thread      *video_tid;$/;"	m	struct:VideoState	file:
+video_tid	tutorial06.c	/^  SDL_Thread      *video_tid;$/;"	m	struct:VideoState	file:
+video_tid	tutorial07.c	/^  SDL_Thread      *video_tid;$/;"	m	struct:VideoState	file:
+videoq	tutorial04.c	/^  PacketQueue     videoq;$/;"	m	struct:VideoState	file:
+videoq	tutorial05.c	/^  PacketQueue     videoq;$/;"	m	struct:VideoState	file:
+videoq	tutorial06.c	/^  PacketQueue     videoq;$/;"	m	struct:VideoState	file:
+videoq	tutorial07.c	/^  PacketQueue     videoq;$/;"	m	struct:VideoState	file:
+width	tutorial04.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+width	tutorial05.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+width	tutorial06.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+width	tutorial07.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
