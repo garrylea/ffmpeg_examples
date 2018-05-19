@@ -7,6 +7,7 @@ static Uint8 *audio_buf = NULL;
 static Uint8 *audio_pos = NULL;
 static size_t buffer_len = 0;
 
+//callback function for audio devcie
 void read_audio_data(void *udata, Uint8 *stream, int len){
 
     if(buffer_len == 0){
@@ -33,17 +34,20 @@ int main(int argc, char *argv[])
 
     char *path = "./test.pcm";
 
+    //SDL initialize
     if(SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO | SDL_INIT_TIMER)){
         fprintf(stderr, "Could not initialize SDL - %s\n", SDL_GetError());
         return ret;
     }
 
+    //open pcm file
     audio_fd = fopen(path, "r");
     if(!audio_fd){
         fprintf(stderr, "Failed to open pcm file!\n");
         goto __FAIL;
     }
 
+    //alloc memory for audio
     audio_buf = (Uint8*)malloc(BLOCK_SIZE);
     if(!audio_buf){
         goto __FAIL;
@@ -54,7 +58,7 @@ int main(int argc, char *argv[])
     spec.format = AUDIO_S16SYS;
     spec.channels = 2;
     spec.silence = 0;
-    spec.samples = 1024;;
+    spec.samples = 2048;;
     spec.callback = read_audio_data;;
     spec.userdata = NULL;
 
@@ -68,11 +72,13 @@ int main(int argc, char *argv[])
     SDL_PauseAudio(0);
 
     do{
+        //read data from pcm file
         buffer_len = fread(audio_buf, 1, BLOCK_SIZE, audio_fd);
         fprintf(stderr, "block size is %zu\n", buffer_len);
 
         audio_pos = audio_buf;
 
+        //the main thread wait for a moment
         while(audio_pos < (audio_buf + buffer_len)) {
             SDL_Delay(1);
         }
@@ -85,6 +91,7 @@ int main(int argc, char *argv[])
     ret = 0;
 
 __FAIL:
+    //release some resources
     if(audio_buf){
         free(audio_buf);
     }
@@ -93,6 +100,7 @@ __FAIL:
         fclose(audio_fd);
     }
 
+    //quit SDL
     SDL_Quit();
 
     return ret;
