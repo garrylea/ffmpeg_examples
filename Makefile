@@ -45,7 +45,8 @@ EXAMPLES = demuxing_decoding                   \
 	   yuv_video                           \
 	   decode_audio                        \
 	   decode_video			       \
-	   filtering_audio
+	   filtering_audio		       \
+	   filtering_video
 OBJS=$(addsuffix .o,$(EXAMPLES))
 
 # the following examples make explicit use of the math library
