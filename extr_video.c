@@ -278,38 +278,12 @@ int main(int argc, char *argv[])
     dst_filename = argv[2];
 
     if(src_filename == NULL || dst_filename == NULL){
-        av_log(NULL, AV_LOG_DEBUG, "src or dts file is null, plz check them!\n");
+        av_log(NULL, AV_LOG_ERROR, "src or dts file is null, plz check them!\n");
         return -1;
     }
 
     /*register all formats and codec*/
     av_register_all();
-
-    /*
-    ofmt_ctx = avformat_alloc_context();
-    output_fmt = av_guess_format(NULL, dst_filename, NULL);
-    if(!output_fmt){
-        av_log(NULL, AV_LOG_DEBUG, "Cloud not guess file format \n");
-        exit(1);
-    }
-
-    ofmt_ctx->oformat = output_fmt;
-
-    out_stream = avformat_new_stream(ofmt_ctx, NULL);
-    if(!out_stream){
-        av_log(NULL, AV_LOG_DEBUG, "Failed to create out stream!\n");
-        exit(1);
-    }
-
-    if((err_code = avio_open(&ofmt_ctx->pb, dst_filename, AVIO_FLAG_WRITE)) < 0) {
-        av_strerror(err_code, errors, 1024);
-        av_log(NULL, AV_LOG_DEBUG, "Could not open file %s, %d(%s)\n",
-               dst_filename,
-               err_code,
-               errors);
-        exit(1);
-    }
-    */
 
     dst_fd = fopen(dst_filename, "wb");
     if (!dst_fd) {
@@ -327,29 +301,8 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    /*retrieve video stream*/
-    if((err_code = avformat_find_stream_info(fmt_ctx, NULL)) < 0) {
-        av_strerror(err_code, errors, 1024);
-        av_log(NULL, AV_LOG_DEBUG, "failed to find stream information: %s, %d(%s)\n",
-               src_filename,
-               err_code,
-               errors);
-        return -1;
-    }
-
     /*dump input information*/
     av_dump_format(fmt_ctx, 0, src_filename, 0);
-
-    /*dump output information*/
-    //av_dump_format(ofmt_ctx, 0, dst_filename, 1);
-
-    /*
-    frame = av_frame_alloc();
-    if(!frame){
-        av_log(NULL, AV_LOG_DEBUG, "Could not allocate frame\n");
-        return AVERROR(ENOMEM);
-    }
-    */
 
     /*initialize packet*/
     av_init_packet(&pkt);
@@ -383,9 +336,10 @@ int main(int argc, char *argv[])
 
             h264_mp4toannexb(fmt_ctx, &pkt, dst_fd);
 
-            //release pkt->data
-            av_packet_unref(&pkt);
         }
+
+        //release pkt->data
+        av_packet_unref(&pkt);
     }
 
     //av_write_trailer(ofmt_ctx);

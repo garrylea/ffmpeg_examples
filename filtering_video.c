@@ -39,8 +39,10 @@
 #include <libavutil/opt.h>
 
 //const char *filter_descr = "scale=78:24,transpose=cclock";
-//const char *filter_descr = "delogo=x=500:y=20:w=102:h=40:show=1";
-const char *filter_descr = "delogo=x=460:y=15:w=135:h=40:show=1";
+//const char *filter_descr = "delogo=x=460:y=15:w=135:h=40:show=1";
+//const char *filter_descr = "lutyuv='u=128:v=128'";
+const char *filter_descr = "hflip";
+
 /* other way:
    scale=78:24 [scl]; [scl] transpose=cclock // assumes "[in]" and "[out]" to be input output pads respectively
  */
